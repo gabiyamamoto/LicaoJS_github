@@ -1,8 +1,7 @@
-let ano = 2000;
-let divisivelPor400 = ano % 400 === 0;
+let ano = 1996;
 
-if (divisivelPor400 === true) {
-    console.log (`É um ano bissexto!`);
+if (ano % 4 === 0 && ano % 100 !== 0 || ano % 400 === 0) {
+    console.log (`É um ano bissexto! 🙆‍♂️`);
 } else {
-    console.log (`Não é um ano bissexto!`);
+    console.log (`Não é um ano bissexto! 🙅‍♂️`)
 }
