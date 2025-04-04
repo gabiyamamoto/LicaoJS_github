@@ -1,4 +1,4 @@
-let mes = 12;
+let mes = 4;
 
 switch (mes) {
     case 1:
