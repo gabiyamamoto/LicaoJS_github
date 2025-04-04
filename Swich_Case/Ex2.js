@@ -11,10 +11,10 @@ switch (mes) {
         console.log (`Março!`);
         break;
     case 4:
-        console.log (`Abril`);
+        console.log (`Abril!`);
         break;
     case 5:
-        console.log (`Maio`);
+        console.log (`Maio!`);
         break;
     case 6:
         console.log (`Junho!`);
@@ -31,5 +31,12 @@ switch (mes) {
     case 10:
         console.log (`Outubro!`);
         break;
-    
+    case 11:
+        console.log (`Novembro!`);
+        break;
+    case 12:
+        console.log (`Dezembro!`);
+        break;
+    default:
+        console.log (`Mês inválido! Tente um número de 1 a 12.`);
 }
